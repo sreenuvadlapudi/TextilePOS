@@ -9,6 +9,11 @@ import Sales from './pages/Sales.jsx'
 import Purchases from './pages/Purchases.jsx'
 import Customers from './pages/Customers.jsx'
 import Suppliers from './pages/Suppliers.jsx'
+import AdminDashboard from './pages/admin/AdminDashboard.jsx'
+import AdminProducts from './pages/admin/AdminProducts.jsx'
+import AdminCustomers from './pages/admin/AdminCustomers.jsx'
+import AdminFiles from './pages/admin/AdminFiles.jsx'
+import AdminAnalytics from './pages/admin/AdminAnalytics.jsx'
 import Cart from './pages/Cart.jsx'
 import Orders from './pages/Orders.jsx'
 import Login from './pages/Login.jsx'
@@ -31,6 +36,11 @@ function App() {
                 <Route path="/purchases" element={<Purchases />} />
                 <Route path="/customers" element={<Customers />} />
                 <Route path="/suppliers" element={<Suppliers />} />
+                <Route path="/admin" element={<AdminDashboard />} />
+                <Route path="/admin/products" element={<AdminProducts />} />
+                <Route path="/admin/customers" element={<AdminCustomers />} />
+                <Route path="/admin/files" element={<AdminFiles />} />
+                <Route path="/admin/analytics" element={<AdminAnalytics />} />
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/orders" element={<Orders />} />
                 <Route path="/login" element={<Login />} />

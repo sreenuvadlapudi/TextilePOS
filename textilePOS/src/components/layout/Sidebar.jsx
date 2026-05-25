@@ -4,6 +4,7 @@ const navItems = [
   { label: 'Dashboard', path: '/' },
   { label: 'Business', path: '/business' },
   { label: 'Products', path: '/products' },
+  { label: 'Admin', path: '/admin' },
   { label: 'Cart', path: '/cart' },
   { label: 'Orders', path: '/orders' },
   { label: 'Sales', path: '/sales' },
